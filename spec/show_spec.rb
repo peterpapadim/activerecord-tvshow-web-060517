@@ -1,4 +1,7 @@
 require_relative 'spec_helper'
+require_relative '../models/show'
+require_relative '../db/migrate/001_create_shows'
+require_relative '../db/migrate/002_add_season_to_shows'
 
 describe Show do
 
